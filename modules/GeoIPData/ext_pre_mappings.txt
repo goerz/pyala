@@ -1,0 +1,17 @@
+t-dialin.net      : DE
+proxad.net        : FR
+wanadoo.fr        : FR
+.de               : DE
+ttnet.net.tr      : TR
+arcor-ip.net      : DE
+comcast.net       : US
+rima-tde.net      : ES
+rr.com            : US
+telecomitalia.it  : IT
+inktomisearch.com : US
+search.live.com   : US
+phx.gbl           : US
+verizon.net       : US
+googlebot.com     : US
+yahoo.net         : US
+search.live.com   : US

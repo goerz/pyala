@@ -1,0 +1,46 @@
+<!-- if full_html == "1" -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>Table Test</title>
+</head>
+<body>
+<!-- endif -->
+<!-- Begin Barchart-->
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse; width: [!-- var barchart_width --]; height: [!-- var barchart_height --]; padding:0">
+    <tr style="height:[!-- var titlefield_height --]; background-color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: [!-- var title_fontsize --]; text-align: center; font-weight: bold; padding: 3px; white-space: nowrap; vertical-align:top; color: [!-- var title_fontcolor --]">
+        <th colspan="[!-- var number_of_datapoints --]">[!-- var title --]</th>
+    </tr>
+    <tr style="border:solid 1px [!-- var bordercolor --]" > <!-- barchart row -->
+
+        <!-- startloop data -->
+        <td style="margin:0px"> <!-- vertical bar cell -->
+            <table cellspacing="0" cellpadding="0" style="height:100%; width:100%; padding:0">
+                <tr style="background-color:[!-- var backgroundcolor --]; text-align: center; vertical-align:bottom">
+                    <td style="font-family: Arial, Helvetica, sans-serif; color: [!-- var valuelabel_color --]; font-size: [!-- var number_fontsize --]; padding: 3px">[!-- loopvar data.value --]</td>
+                </tr> <!-- the background -->
+                <tr style="height:[!-- loopvar data.bar_height --]; background-color:[!-- loopvar data.bar_color --]; text-align: center; vertical-align:middle">
+                    <td style="padding: 3px; border:solid [!-- var bordercolor --]; border-width: [!-- loopvar data.topborder --] [!-- loopvar data.rightborder --] [!-- loopvar data.bottomborder --] [!-- loopvar data.leftborder --]; border-collapse:collapse">
+                        <!-- if use_blindpic == "1" -->
+                        <img src="[!-- var blindpic --]" width="1px" height="[!-- loopvar data.bar_height --]" alt="">
+                        <!-- else -->
+                        &nbsp;
+                        <!-- endif -->
+                    </td>
+                </tr> <!-- the bar -->
+            </table>
+        </td>
+        <!-- endloop data -->
+
+    </tr>
+    <tr style="height:[!-- var label_height --]; border-width:1px; border-style:solid; border-color:[!-- var bordercolor --]; background-color:[!-- var label_backgroundcolor --]; font-family: Arial, Helvetica, sans-serif; font-size: [!-- var label_fontsize --]; text-align: center; font-weight: bold; padding: 3px; white-space: nowrap; vertical-align:top; color: [!-- var label_fontcolor --]"> <!-- label row at bottom -->
+        <!-- startloop data -->
+        <td>[!-- loopvar data.barlabel --]</td>
+        <!-- endloop data -->
+    </tr>
+</table>
+<!-- End Barchart -->
+<!-- if full_html-->
+</body>
+<!-- endif -->

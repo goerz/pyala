@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Visit Information [!-- var number --]</title>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+<!--
+body {margin: 0px; padding: 0px; background-color: #edf0f9}
+p {font-family: Arial, Helvetica, sans-serif; color: #606680; font-size: 8pt}
+td {font-family: Arial, Helvetica, sans-serif; color: #606680; font-size: 8pt}
+input {border: 1px #606680 solid; background-color: #edf0f9; vertical-align: middle}
+select {border: 1px #606680 solid; background-color: #edf0f9; vertical-align: middle}
+a {text-decoration: underline; color: #cc7286}
+a:hover {text-decoration: none; color: #606680}
+a.navbar {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; padding: 3px; color: #606680}
+a.navbar:hover  {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; padding: 2px; border: 1px solid #606680; background-color: #edf0f9}
+.navbar {font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #98a3d1; font-weight: bold; margin: 0px; padding: 10px; vertical-align: middle}
+.navbar img {vertical-align: middle}
+.titlebar {color: #ffffff; font-weight: bold; font-size: 14pt}
+.head {font-family: Arial, Helvetica, sans-serif; font-size: 8pt; text-align: center; font-weight: bold; padding: 3px; white-space: nowrap}
+.headrow {font-family: Arial, Helvetica, sans-serif; font-size: 8pt; text-align: left; font-weight: bold; padding: 3px; white-space: nowrap;margin: 0px; border: 1px #ffffff solid}
+.graph {font-family: Arial, Helvetica, sans-serif; color: #606680; font-size: 7pt; padding: 3px}
+.capt {font-weight: bold; color: #ffffff; white-space: nowrap}
+.cntbox {background-color:#ffffff; border: 1px #606680 solid}
+.detbox {background-color:#ffffff; border: 1px #606680; border-style: solid none}
+.gridbox {margin: 0px; border: 1px #606680 solid}
+.brd {border-width: 1px; border-color: #606680}
+.collapse {border-collapse: collapse}
+.rows {margin: 0px; border: 1px #ffffff solid}
+.sky {border-width: 1px; border-color: #e5f2f7}
+table {border-collapse: collapse}
+tab\le {border-collapse: separate;}
+/*\*//*/
+td table {width:97%; margin:0px 1px 0px 0px; padding:0px}
+/**/
+//-->
+</style>
+<!--[if IE]>
+<style type="text/css">
+table {border-collapse: collapse !important}
+</style>
+<![endif]-->
+</head>
+<body>
+
+<table border="0" cellspacing="1" cellpadding="2" width="100%" class="brd" style="background-color: #808ebf; border-style: solid none">
+    <tr>
+        <td align="center" class="titlebar" height="30" width="100%">
+            Information for Visit [!-- var number --] from [!-- var hostname --]  on [!-- var begin_time_string --]
+        </td>
+    </tr>
+</table>
+
+<table style="table-layout:fixed" align="center" border="0" cellpadding="2" cellspacing="0" width="100%">
+    <tr>
+        <td class="detbox" align="center" valign="middle">
+            <table>
+                <tr>
+                    <td class="head">Visit Information</td>
+                </tr>
+            </table>
+            <table style="table-layout:fixed" class="collapse" border="0" cellpadding="2" cellspacing="0" width="100%">
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Hostname</td>
+                    <td class="rows" align="left">&nbsp;[!-- var hostname --]</td>
+                </tr>
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Begin Time:</td>
+                    <td class="rows" align="left">&nbsp;[!-- var begin_time_string --] </td>
+                </tr>
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;End Time:</td>
+                    <td class="rows" align="left">&nbsp;[!-- var end_time_string --] </td>
+                </tr>
+                <!-- if is_bot == "No" -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Country Extension:</td>
+                    <td class="rows" align="left">&nbsp;<img src="[!-- var country_icon --]" height="14" width="14" alt="[!-- var countryname --]" title="[!-- var countryname --]" />&nbsp;&nbsp;[!-- var countryname --]</td>
+                </tr>
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;OS</td>
+                    <td class="rows" align="left">&nbsp;<img src="[!-- var os_icon --]" height="14" width="14" alt="[!-- var os --] " title="[!-- var os --] " />&nbsp;[!-- var os --] [!-- var os_version --]</td>
+                </tr>
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Browser:</td>
+                    <td class="rows" align="left">&#160;<img src="[!-- var browser_icon --]" height="14" width="14" alt="[!-- var browser --] " title="[!-- var browser --] " />&nbsp;&nbsp;[!-- var browser --] [!-- var browser_version --]</td>
+                </tr>
+                <!-- endif -->
+                 <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Is Bot:</td>
+                    <td class="rows" align="left">&nbsp;[!-- var is_bot --] </td>
+                </tr>
+                <!-- if is_bot == "Yes" -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Botname:</td>
+                    <td class="rows" align="left">&nbsp;[!-- var botname --] </td>
+                </tr>
+                <!-- endif -->
+                <!-- if is_bot == "No" -->
+                <!-- if user != "" -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;User:</td>
+                    <td class="rows" align="left">&nbsp;[!-- var user --] </td>
+                </tr>
+                <!-- endif -->
+                <!-- if referer != "" -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Referer:</td>
+                    <td class="rows" align="left">&nbsp;<a href="[!-- var referer --]">[!-- var referer_page --]</a></td>
+                </tr>
+                <!-- endif -->
+                <!-- if search != "" -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Search:</td>
+                    <td class="rows" align="left">&nbsp;[!-- var search --]</td>
+                </tr>
+                <!-- endif -->
+                <!-- endif -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="headrow" width="10%">&nbsp;Total Transfer:</td>
+                    <!-- if float(transferred_kb) > 1024 -->
+                    <td class="rows" align="left">&nbsp;[!-- var transferred_mb --] Megabyte</td>
+                    <!-- else -->
+                     <!-- if float(transferred_bytes) > 1024 -->
+                    <td class="rows" align="left">&nbsp;[!-- var transferred_kb --] Kilobyte</td>
+                     <!-- else -->
+                    <td class="rows" align="left">&nbsp;[!-- var transferred_bytes --] Byte</td>
+                     <!-- endif -->
+                    <!-- endif -->
+                </tr>
+            </table>
+
+
+            <table>
+                <tr>
+                    <td class="head">Visited Pages</td>
+                </tr>
+            </table>
+
+            <table class="collapse" border="0" cellpadding="2" cellspacing="0" width="100%">
+                <tr style="background-color: #e0e5f2">
+                    <td class="rows" align="right" width="4%">No.</td>
+                    <td class="rows" align="left" width="80%">Page</td>
+                    <td class="rows" align="right" width="3%">Time</td>
+                    <td class="rows" align="right" width="3%">Reloads</td>
+                    <td class="rows" align="right" width="10%">Code</td>
+                </tr>
+                <!-- startloop pages -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="rows" align="right"><!-- loopvar pages.iteration -->&nbsp;</td>
+                    <td class="rows" align="left">&nbsp;<!-- loopvar pages.file --></td>
+                    <td class="rows" align="right"><!-- loopvar pages.time -->&nbsp;s&nbsp;</td>
+                    <td class="rows" align="right"><!-- loopvar pages.reload -->&nbsp;</td>
+                    <td class="rows" align="right"><!-- loopvar pages.code --></td>
+                </tr>
+                <!-- endloop pages-->
+            </table>
+
+            <table>
+                <tr>
+                    <td class="head">Log Excerpt</td>
+                </tr>
+            </table>
+
+            <table class="collapse" border="0" cellpadding="2" cellspacing="0" width="100%">
+                <!-- startloop pages -->
+                <tr style="background-color: #e0e5f2">
+                    <td class="rows" align="left" width="100%">[!-- loopvar pages.full_line --]</td>
+                </tr>
+                <!-- endloop pages-->
+            </table>
+
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

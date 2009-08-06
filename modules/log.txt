@@ -1,0 +1,115 @@
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+You tried to replace u'linkfrom', but there is no entry in the replacement table. The marker is left unchanged
+Visit from 199.3.246.231 (Browser: Firefox)
+    from Sat, 01 Jul 2006 00:40:02 to Sat, 01 Jul 2006 00:40:02
+    pages: 1
+    writing to: 1151707202.html
+Visit from a81-84-142-222.cpe.netcabo.pt (Browser: Firefox)
+    from Sat, 01 Jul 2006 00:40:23 to Sat, 01 Jul 2006 00:40:23
+    pages: 1
+    writing to: 1151707223.html
+Visit from xdsl-2654.lodz.dialog.net.pl (Browser: Opera)
+    from Sat, 01 Jul 2006 03:03:38 to Sat, 01 Jul 2006 03:04:44
+    pages: 17
+    writing to: 1151715818.html
+Visit from toronto-hse-ppp3721957.sympatico.ca (Browser: Explorer)
+    from Sat, 01 Jul 2006 04:36:36 to Sat, 01 Jul 2006 04:36:36
+    pages: 1
+    writing to: 1151721396.html
+Visit from dhcp-74-129-236-214.insightbb.com (Browser: Firefox)
+    from Sat, 01 Jul 2006 05:26:32 to Sat, 01 Jul 2006 05:26:32
+    pages: 1
+    writing to: 1151724392.html
+Visit from 62-90-162-163.barak.net.il (Browser: Explorer)
+    from Sat, 01 Jul 2006 06:16:51 to Sat, 01 Jul 2006 06:17:26
+    pages: 2
+    writing to: 1151727411.html
+Visit from 202.108.22.191 (Browser: Explorer)
+    from Sat, 01 Jul 2006 10:09:10 to Sat, 01 Jul 2006 10:09:10
+    pages: 1
+    writing to: 1151741350.html
+Visit from dsl3-63-249-87-157.cruzio.com (Browser: Firefox)
+    from Sat, 01 Jul 2006 10:29:27 to Sat, 01 Jul 2006 10:29:27
+    pages: 1
+    writing to: 1151742567.html
+Visit from ac9e1ffb.ipt.aol.com (Browser: Safari)
+    from Sat, 01 Jul 2006 11:26:33 to Sat, 01 Jul 2006 11:26:33
+    pages: 1
+    writing to: 1151745993.html
+Visit from pfeffer.zedat.fu-berlin.de (Browser: other)
+    from Sat, 01 Jul 2006 12:45:57 to Sat, 01 Jul 2006 13:22:04
+    pages: 13
+    writing to: 1151750757.html
+Visit from p54bce0ea.dip.t-dialin.net (Browser: Explorer)
+    from Sat, 01 Jul 2006 13:42:40 to Sat, 01 Jul 2006 13:43:18
+    pages: 43
+    writing to: 1151754160.html
+Visit from pfeffer.zedat.fu-berlin.de (Browser: other)
+    from Sat, 01 Jul 2006 14:13:35 to Sat, 01 Jul 2006 14:13:59
+    pages: 75
+    writing to: 1151756015.html
+Visit from p54b3f832.dip.t-dialin.net (Browser: Explorer)
+    from Sat, 01 Jul 2006 14:28:34 to Sat, 01 Jul 2006 14:28:35
+    pages: 17
+    writing to: 1151756914.html
+Visit from pfeffer.zedat.fu-berlin.de (Browser: other)
+    from Sat, 01 Jul 2006 14:54:27 to Sat, 01 Jul 2006 15:50:29
+    pages: 1690
+    writing to: 1151758467.html
+Visit from p549f25f3.dip0.t-ipconnect.de (Browser: Explorer)
+    from Sat, 01 Jul 2006 16:03:39 to Sat, 01 Jul 2006 16:03:40
+    pages: 18
+    writing to: 1151762619.html
+Visit from p54a5982c.dip0.t-ipconnect.de (Browser: Explorer)
+    from Sat, 01 Jul 2006 16:52:15 to Sat, 01 Jul 2006 16:52:17
+    pages: 17
+    writing to: 1151765535.html
+Visit from chello080108201031.4.13.vie.surfer.at (Browser: Explorer)
+    from Sat, 01 Jul 2006 17:02:56 to Sat, 01 Jul 2006 17:02:56
+    pages: 16
+    writing to: 1151766176.html
+Visit from p54a33553.dip0.t-ipconnect.de (Browser: Explorer)
+    from Sat, 01 Jul 2006 17:44:44 to Sat, 01 Jul 2006 17:44:56
+    pages: 1
+    writing to: 1151768684.html
+Visit from pd95306c4.dip0.t-ipconnect.de (Browser: Firefox)
+    from Sat, 01 Jul 2006 18:03:46 to Sat, 01 Jul 2006 18:03:58
+    pages: 2
+    writing to: 1151769826.html
+Visit from p54ae9f9b.dip0.t-ipconnect.de (Browser: Firefox)
+    from Sat, 01 Jul 2006 17:55:41 to Sat, 01 Jul 2006 18:05:27
+    pages: 15
+    writing to: 1151769341.html
+Visit from i5387e6e8.versanet.de (Browser: Firefox)
+    from Sat, 01 Jul 2006 18:17:09 to Sat, 01 Jul 2006 18:17:14
+    pages: 1
+    writing to: 1151770629.html
+Traceback (most recent call last):
+  File "test.py", line 30, in <module>
+    visit.writeout( str(visit.begin_time) + ".html" )
+  File "/home/goerz/Documents/EigeneProgramme/Python/PPClone/modules/visit.py", line 217, in writeout
+    tp.run()
+  File "/home/goerz/Documents/EigeneProgramme/Python/PPClone/modules/TemplateProcessor.py", line 357, in run
+    self._handleblock()
+  File "/home/goerz/Documents/EigeneProgramme/Python/PPClone/modules/TemplateProcessor.py", line 519, in _handleblock
+    line = line.replace(string, replacement)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 8: ordinal not in range(128)

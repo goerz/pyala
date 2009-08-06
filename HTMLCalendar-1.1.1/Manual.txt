@@ -1,0 +1,79 @@
+HTMLCalendar
+
+----------------------------------------------------------------------
+SUMMARY
+
+Functions and classes for generating one-month and twelve-month calendars in HTML format. 
+
+----------------------------------------------------------------------
+CLASSES
+
+MonthCal -- Class for generating one-month HTML calendar tables.
+	Methods:
+		__init__(self, isSundayFirst=True)
+			isSundayFirst : boolean -- if True, week begins on Sunday (the default); otherwise Monday
+
+		render(self, year, month, links={}, dayrenderer=None) -- Render a one-month calendar.
+			year : integer -- e.g. 2004
+			month : integer -- 1-12
+			links : dict -- a dict of form {DAY [integer]: URI [string],...} used to add links to selected days; ignored if dayrenderer argument is given
+			dayrenderer : function -- a function/closure/callable class instance that takes year, month and day integers as arguments and returns HTML markup for each 'day' table cell; optional
+			Result : string -- HTML table
+
+
+YearCal -- Class for generating a 4x3 HTML table containing twelve one-month calendars.
+	Methods:
+		__init__(self, monthCalendar)
+			monthCalendar : MonthCal -- an instance of MonthCal (or any other object that returns a one-month HTML calendar table when its render(year, month) method is called)
+
+		render(self, year=None, dayrenderer=None) -- Render a twelve-month calendar as a 4x3 table
+			year : integer -- e.g. 2004; default is current year
+			dayrenderer : function -- optional dayrenderer function to pass to each month template
+			Result : string -- HTML table
+
+----------------------------------------------------------------------
+FUNCTIONS
+
+renderYearCalendar(year=None, isSundayFirst=True) -- Render a twelve-month calendar as a complete HTML page.
+	year : integer -- e.g. 2004; default is current year
+	isSundayFirst : boolean -- if True, week begins on Sunday (the default); otherwise Monday
+	Result : string -- HTML document
+
+----------------------------------------------------------------------
+DEPENDENCIES
+
+- HTMLTemplate <http://freespace.virgin.net/hamish.sanderson/htmltemplate.html>
+
+----------------------------------------------------------------------
+HISTORY
+
+2006-08-13 -- 1.1.1; fixed bug in rendering year calendars
+
+2005-12-16 -- 1.1.0; added optional 'dayrenderer' parameter to MonthCal and YearCal render() methods
+
+2005-11-12 -- 1.0.1; fixed bug in renderYearCalendar() when isSundayFirst=False (thanks Rock Howard)
+
+2004-06-01 -- 1.0.0; final release
+
+----------------------------------------------------------------------
+TO DO
+
+- provide a selection of 'standard' dayrenderer functions/closure constructors and deprecate MonthCal.render()'s 'links' parameter in favour of using one of those
+
+----------------------------------------------------------------------
+AUTHOR
+
+- HAS <hamish.sanderson@virgin.net> <http://freespace.virgin.net/hamish.sanderson/>
+
+----------------------------------------------------------------------
+COPYRIGHT
+
+HTMLCalendar -- Functions and classes for generating one-month and twelve-month calendars in HTML format. 
+
+Copyright (C) 2004 HAS <hamish.sanderson@virgin.net>
+
+This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA

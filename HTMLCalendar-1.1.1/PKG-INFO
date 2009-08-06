@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: HTMLCalendar
+Version: 1.1.1
+Summary: HTML calendar generators.
+Home-page: http://freespace.virgin.net/hamish.sanderson/index.html
+Author: HAS
+Author-email: UNKNOWN
+License: LGPL
+Description: Functions and classes for generating one-month and twelve-month calendars in HTML format.
+Platform: any

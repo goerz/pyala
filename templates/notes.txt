@@ -1,0 +1,30 @@
+headrow
+visits_per_page
+link_to_prev
+link_to_next
+write_visit_pages
+
+loop: visit
+    'id' : self.bla,
+    'time' : self.bla,
+    'countryicon' : self.bla,
+    'countryname' : self.bla,
+    'countryextension' : self.bla,
+    'hostname' : self.bla,
+    'number_of_pages' : self.bla,
+    'visitpage' : self.bla,
+    'os_icon' : self.bla,
+    'full_os' : self.bla,
+    'os' : self.bla,
+    'browser_icon' : self.bla,
+    'full_browser' : self.bla,
+    'browser' : self.bla,
+    'referer_url' : self.bla,
+    'referer_site' : self.bla,
+    'referer_page' : self.bla,
+    'last_page' : self.bla,
+    'search_term' : self.bla,
+    'search_term_short' : self.bla,
+    'is_bot' : self.bla,
+    'is_anchor' : self.bla,
+    'anchor_name' : self.bla
